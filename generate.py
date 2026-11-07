@@ -26,7 +26,7 @@ def frame(i,step):
     for j in range(6):
         x=70+j*115
         d.ellipse((x,850+(j%2)*35,x+55,905+(j%2)*35),fill=colors[j])
-    # animated balloon, star, or friendly animal face
+    # illustrated scene changes: clouds and playful decorative details\n    for cloud in range(3):\n        x=(75+cloud*240+step*3)%850-70\n        y=310+cloud*95\n        d.ellipse((x,y,x+130,y+58),fill=(255,255,255))\n        d.ellipse((x+28,y-30,x+100,y+52),fill=(255,255,255))\n    # animated balloon, star, or friendly animal face
     bounce=round(math.sin(step/8*math.pi*2)*30)
     cx,cy=360,560+bounce
     c=colors[i]
@@ -48,7 +48,7 @@ def frame(i,step):
         d.ellipse((cx+45,cy-30,cx+80,cy+5),fill=(40,45,65))
         d.arc((cx-45,cy+5,cx+45,cy+80),0,180,fill=(40,45,65),width=7)
     d.text((360,115),story["title"],font=small,anchor="mm",fill=(45,65,100))
-    d.text((360,940),story["words"][i],font=font,anchor="mm",fill=(40,60,95),stroke_width=1,stroke_fill="white")
+    # Child-friendly high-contrast subtitle card in the safe area\n    label=story["words"][i]\n    d.rounded_rectangle((65,920,655,1035),radius=32,fill=(255,255,255),outline=(222,232,245),width=4)\n    d.text((360,975),label,font=font,anchor="mm",fill=(40,60,95))
     return im
 
 async def make_voice():
