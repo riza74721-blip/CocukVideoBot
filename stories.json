@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Renkleri Öğreniyoruz",
+    "topic": "colors",
+    "words": [
+      "Kırmızı",
+      "Mavi",
+      "Sarı",
+      "Yeşil",
+      "Mor",
+      "Turuncu"
+    ],
+    "speech": "Merhaba minik arkadaşım! Bugün renkleri öğreniyoruz. İşte kırmızı! Kırmızı bir elma gibi. Şimdi mavi! Gökyüzü ne kadar da mavi. Bak, sarı! Güneş gibi parlıyor. Sırada yeşil var. Çimenler yemyeşil. Mor renkli bir balon görüyorum! Ve turuncu, tıpkı tatlı bir portakal gibi. Hadi birlikte sayalım: kırmızı, mavi, sarı, yeşil, mor ve turuncu. Harika iş çıkardın! Yarın yine görüşürüz."
+  },
+  {
+    "title": "Sayıları Öğreniyoruz",
+    "topic": "numbers",
+    "words": [
+      "Bir",
+      "İki",
+      "Üç",
+      "Dört",
+      "Beş",
+      "Altı"
+    ],
+    "speech": "Merhaba arkadaşım! Bugün birlikte sayalım. Bir! Bir tane yıldız. İki! İki sevimli balon. Üç! Üç minik kuş. Dört! Dört güzel çiçek. Beş! Beş renkli top. Altı! Altı parlak yıldız. Hadi şimdi birlikte tekrar edelim. Bir, iki, üç, dört, beş, altı! Ne güzel sayıyorsun! Aferin sana!"
+  },
+  {
+    "title": "Hayvanları Tanıyalım",
+    "topic": "animals",
+    "words": [
+      "Kedi",
+      "Köpek",
+      "Kuş",
+      "Balık",
+      "Tavşan",
+      "Ayı"
+    ],
+    "speech": "Merhaba minik dostum! Bugün hayvanlarla tanışıyoruz. Miyav miyav! Bu bir kedi. Hav hav! İşte sevimli bir köpek. Cik cik! Küçük bir kuş şarkı söylüyor. Balık suda yüzüyor. Tavşan hop hop zıplıyor. Kocaman ayı ise ormanda yürüyor. Haydi birlikte söyleyelim: kedi, köpek, kuş, balık, tavşan, ayı. Harikasın! Yeni bir macerada görüşürüz."
+  }
+]
